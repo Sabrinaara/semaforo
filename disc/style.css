@@ -1,0 +1,42 @@
+
+head, main {
+margin: 0;
+padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+button {
+    margin-top: 45px;
+    width: 80px;
+    margin-right: 7px;
+}
+
+#semaforo {
+    width: 300px;
+    
+}
+
+#amarelo, #verde, #vermelho, #automatico  {
+background-color: rgb(32, 204, 32);
+border: none;
+padding: 10px;
+border-radius: 15px;
+border-bottom: 5px solid rgb(15, 85, 32);
+}
+
+
+#amarelo:hover, #verde:hover, #vermelho:hover, #automatico:hover {
+
+ cursor: pointer;
+}
+
+#amarelo:active, #verde:active, #vermelho:active, #automatico:active  {
+position: relative;
+top: 5px;
+    background-color:  rgb(11, 63, 24);
+   border: none
+
+}
